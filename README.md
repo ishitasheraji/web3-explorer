@@ -36,8 +36,13 @@ A React + Vite website that teaches Web3 through four connected pages. This proj
    - Concepts
    - Live Prices
    - Block Simulator
-4. Save screenshots in `screenshots/` so they are included in the repository.
-5. Push the repository and share the GitHub link with your instructor.
+3. Save screenshots in `screenshots/` so they are included in the repository.
+4. Deploy the app to GitHub Pages using `npm run deploy`.
+5. Share the GitHub repository link and live demo URL with your instructor.
+
+## Live demo
+
+- https://ishitasheraji.github.io/web3-explorer/
 
 ## Features
 
@@ -70,4 +75,5 @@ A React + Vite website that teaches Web3 through four connected pages. This proj
 - [x] Four pages implemented and navigable
 - [x] Responsive layout across devices
 - [x] No build errors (`npm run build` verified)
-- [ ] Screenshots captured for each page
+- [x] Screenshots captured for each page
+- [x] App deployed to GitHub Pages
