@@ -19,8 +19,11 @@ The project focuses on helping users understand how Ethereum Layer 2 solutions i
 
 
 🎨 Modern Light UI with Professional Design
+
 📱 Fully Responsive Layout
+
 ⚛️ Built using React + Vite
+
 🧭 React Router Navigation
 📚 Beginner-Friendly Web3 Learning Platform
 💹 Real-Time Cryptocurrency Prices
