@@ -44,6 +44,21 @@ A React + Vite website that teaches Web3 through four connected pages. This proj
 
 - https://ishitasheraji.github.io/web3-explorer/
 
+## Screenshots
+
+- `screenshots/home.png`
+- `screenshots/concepts.png`
+- `screenshots/live-prices.png`
+- `screenshots/block-simulator.png`
+
+![Home page screenshot](screenshots/home.png)
+
+![Concepts page screenshot](screenshots/concepts.png)
+
+![Live Prices page screenshot](screenshots/live-prices.png)
+
+![Block Simulator page screenshot](screenshots/block-simulator.png)
+
 ## Features
 
 - Sticky navigation bar with active page highlight and mobile hamburger menu
