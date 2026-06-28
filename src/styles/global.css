@@ -1,0 +1,112 @@
+:root {
+  color-scheme: light;
+  font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  background: #eef4fb;
+  color: #1E293B;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #eef4fb 0%, #f8fafc 100%);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration: underline;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.45);
+  outline-offset: 4px;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #F8FAFC;
+}
+
+.app-content {
+  flex: 1;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 20px 40px;
+}
+
+.pageShell {
+  width: 100%;
+}
+
+.pageHeader {
+  background: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+  padding: 42px 34px;
+}
+
+.pageHeader h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2rem, 3vw, 3rem);
+  color: #0F172A;
+}
+
+.pageHeader p {
+  margin: 0;
+  color: #475569;
+  max-width: 780px;
+  line-height: 1.75;
+}
+
+.linkButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  padding: 0.9rem 1.6rem;
+  border-radius: 999px;
+  background: #2563EB;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.linkButton:hover {
+  background: #1D4ED8;
+  transform: translateY(-1px);
+}
