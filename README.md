@@ -218,13 +218,6 @@ Modern Frontend Development
 🔔 Price Alerts
 ⚡ Better Animations
 📱 Progressive Web App (PWA)
-👩‍💻 Author
-
-Ishita Sheraji
-
-Computer Engineering Student
-
-GitHub: https://github.com/ishitasheraji
 
 📄 License
 
