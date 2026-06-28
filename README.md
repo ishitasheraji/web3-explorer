@@ -15,6 +15,9 @@ The project focuses on helping users understand how Ethereum Layer 2 solutions i
 
 
 ✨ Features
+
+
+
 🎨 Modern Light UI with Professional Design
 📱 Fully Responsive Layout
 ⚛️ Built using React + Vite
