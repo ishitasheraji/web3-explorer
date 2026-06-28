@@ -36,8 +36,8 @@ A React + Vite website that teaches Web3 through four connected pages. This proj
    - Concepts
    - Live Prices
    - Block Simulator
-3. Attach the screenshots to your submission if required.
-4. Share the GitHub repository link with your instructor.
+4. Save screenshots in `screenshots/` so they are included in the repository.
+5. Push the repository and share the GitHub link with your instructor.
 
 ## Features
 
@@ -58,6 +58,7 @@ A React + Vite website that teaches Web3 through four connected pages. This proj
 ## Known improvements
 
 - Add screenshot files to the repository for submission
+- Deploy the app as a live GitHub Pages project
 - Improve page animations and fade-in transitions
 - Add a dark mode toggle
 - Add a custom favicon and SEO meta tags
