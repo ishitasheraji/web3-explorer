@@ -206,6 +206,7 @@ API Integration
 Proof-of-Work
 SHA-256 Hashing
 Blockchain Immutability
+
 Modern Frontend Development
 🚀 Future Improvements
 🌙 Dark Mode
