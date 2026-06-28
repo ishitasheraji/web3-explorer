@@ -1,32 +1,150 @@
-# Arbitrum Pulse
+🚀 Arbitrum Pulse
 
-A React + Vite website that teaches Web3 through four connected pages. This project uses a single navigable site to demonstrate real project structure, routing, responsive design, and simple Web3 concepts.
+A Modern Web3 Educational Platform Built with React & Vite
 
-## Pages
+Arbitrum Pulse is a modern, responsive educational website designed to help beginners understand Blockchain, Ethereum, Layer 2 Scaling, and the Arbitrum Ecosystem through interactive visualizations and real-world demonstrations.
 
-- **Home**: Arbitrum / Layer 2 landing page with hero, blockchain illustration, features, timeline, benefits, and footer.
-- **Concepts**: Educational comparison cards for Web2 vs Web3, Ethereum vs Bitcoin, Public Key vs Private Key, and Blockchain vs Traditional Databases.
-- **Live Prices**: Real-time crypto price dashboard using CoinGecko with ETH, BTC, and ARB pricing, 24h change, and refresh support.
-- **Block Simulator**: Interactive mining simulator that shows hash generation, nonce mining, and how changing Block 1 invalidates Block 2.
+The project combines educational content, real-time cryptocurrency prices, and an interactive blockchain mining simulator into one cohesive web application. It demonstrates modern React development practices, responsive UI/UX, API integration, routing, and blockchain fundamentals.
 
-## Install and run
 
-1. Open a terminal in the project folder:
-   ```bash
-   cd "c:\Users\ISHITA\OneDrive\Desktop\ARBITRUM\web3-explorer"
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-4. Open the browser at:
-   ```bash
-   http://localhost:5173
+🌟 Project Overview
 
+Arbitrum Pulse was developed as a hands-on learning platform for Web3 enthusiasts and students. Instead of presenting theory alone, the application combines four interconnected pages that explain blockchain concepts through engaging visuals and interactive components.
+
+The project focuses on helping users understand how Ethereum Layer 2 solutions improve scalability while providing practical demonstrations of blockchain concepts such as hashing, proof-of-work, and chain immutability.
+
+
+✨ Features
+🎨 Modern Light UI with Professional Design
+📱 Fully Responsive Layout
+⚛️ Built using React + Vite
+🧭 React Router Navigation
+📚 Beginner-Friendly Web3 Learning Platform
+💹 Real-Time Cryptocurrency Prices
+🔗 Interactive Blockchain Mining Simulator
+🔒 SHA-256 Hash Generation
+⛏️ Proof-of-Work Demonstration
+♻️ Reusable React Components
+⚡ Fast Performance
+🎯 Clean and Maintainable Code
+
+
+📄 Website Pages
+🏠 Home
+
+A modern landing page introducing the Arbitrum ecosystem.
+
+Includes
+Responsive Navigation Bar
+Hero Section
+About Arbitrum
+Why Ethereum Needed Layer 2
+Blockchain Illustration
+Features Section
+Benefits Section
+Blockchain Workflow Timeline
+Call-to-Action
+Responsive Footer
+
+📚 Concepts
+
+An educational reference page explaining important Web3 concepts using modern comparison cards.
+
+Topics Covered
+Web2 vs Web3
+Ethereum vs Bitcoin
+Public Key vs Private Key
+Blockchain vs Traditional Database
+
+Each concept is explained in simple language with visual comparisons for easy understanding.
+
+💹 Live Prices
+
+A cryptocurrency dashboard powered by the CoinGecko API.
+
+Features
+Live Ethereum (ETH) Price
+Live Bitcoin (BTC) Price
+Live Arbitrum (ARB) Price
+Current USD Prices
+24-Hour Price Change
+Green/Red Trend Indicators
+Refresh Button
+Responsive Cards
+
+⛓️ Block Simulator
+
+An interactive blockchain mining simulator built with JavaScript.
+An interactive blockchain mining simulator built with JavaScript.
+
+Demonstrates
+SHA-256 Hashing
+Nonce-Based Mining
+Simulated Proof-of-Work
+Previous Hash Linking
+Block Validation
+Blockchain Immutability
+Chain Integrity
+
+Changing the data inside Block 1 immediately invalidates Block 2, visually demonstrating how blockchain immutability works.
+
+🛠️ Technology Stack
+Frontend
+React
+Vite
+JavaScript (ES6+)
+HTML5
+CSS3
+Libraries
+React Router DOM
+Lucide React
+APIs
+CoinGecko Public API
+Browser APIs
+Web Crypto API (SHA-256)
+
+
+📂 Project Structure
+arbitrum-pulse/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── icons/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── FeatureCard.jsx
+│   │   ├── ConceptCard.jsx
+│   │   ├── PriceCard.jsx
+│   │   ├── BlockCard.jsx
+│   │   ├── Loader.jsx
+│   │   └── Button.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Concepts.jsx
+│   │   ├── LivePrices.jsx
+│   │   ├── BlockSimulator.jsx
+│   │   └── NotFound.jsx
+│   │
+│   ├── styles/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── screenshots/
+│   ├── home.png
+│   ├── concepts.png
+│   ├── live-prices.png
+│   └── block-simulator.png
+│
+├── package.json
+├── vite.config.js
+├── README.md
+└── index.html
 ## Live demo
 
 - https://ishitasheraji.github.io/web3-explorer/
@@ -46,50 +164,81 @@ A React + Vite website that teaches Web3 through four connected pages. This proj
 
 ![Block Simulator page screenshot](screenshots/block-simulator.png)
 
-## Features
 
-- Sticky navigation bar with active page highlight and mobile hamburger menu
-- Single-page React application using `react-router-dom`
-- Responsive design with a modern light theme and professional styling
-- Home page includes Arbitrum / Layer 2 educational content, features, benefits, timeline, and CTA
-- Concepts page uses visual side-by-side comparison cards for core Web3 ideas
-- Live Prices page fetches data from CoinGecko and shows green/red trend indicators
-- Block Simulator page uses SHA-256 hashing and demonstrates nonce-based mining and chain validation
 
-## Notes
+🚀 Installation & Setup
 
-- The Live Prices page uses CoinGecko's free public API, so no API key is required.
-- The Block Simulator uses the browser's Web Crypto API for SHA-256 hashing.
-- The app runs locally with `npm install` and `npm run dev`.
+Clone the repository
 
-- 
-## 🛠️ Technologies
-- React
-- Vite
-- JavaScript
-- CSS
-- React Router DOM
-- Lucide React
-- CoinGecko API
-- Web Crypto API
+git clone https://github.com/ishitasheraji/web3-explorer.git
 
-## 🎯 Learning Objectives
+Navigate to the project folder
 
-- Understand Blockchain fundamentals.
-- Learn Web3 concepts.
-- Explore cryptocurrency pricing APIs.
-- Visualize Proof of Work.
-- Demonstrate blockchain immutability.
+cd web3-explorer
 
-  ## 🚀 Future Improvements
+Install dependencies
 
-- Dark Mode
-- More cryptocurrencies
-- Wallet Connection
-- Transaction Explorer
-- NFT Viewer
-- Better animations
-- 
+npm install
+
+Start the development server
+
+npm run dev
+
+
+
+🌐 Live Demo
+
+GitHub Pages
+
+https://ishitasheraji.github.io/web3-explorer/
+
+🎯 Learning Outcomes
+
+Through this project, users can learn:
+
+Blockchain Fundamentals
+Web3 Architecture
+Ethereum Layer 2 Scaling
+Arbitrum Ecosystem
+Cryptocurrency APIs
+React Routing
+API Integration
+Proof-of-Work
+SHA-256 Hashing
+Blockchain Immutability
+Modern Frontend Development
+🚀 Future Improvements
+🌙 Dark Mode
+👛 MetaMask Wallet Integration
+📈 Interactive Price Charts
+💰 More Cryptocurrency Support
+🔍 Transaction Explorer
+🖼️ NFT Gallery
+📊 Portfolio Tracker
+🔔 Price Alerts
+⚡ Better Animations
+📱 Progressive Web App (PWA)
+👩‍💻 Author
+
+Ishita Sheraji
+
+Computer Engineering Student
+
+GitHub: https://github.com/ishitasheraji
+
+📄 License
+
+This project was developed for educational purposes as part of a Web3 learning assignment.
+
+🙏 Acknowledgements
+
+Special thanks to:
+
+React Team
+Vite Team
+CoinGecko API
+Arbitrum Foundation
+Ethereum Community
 
   ## 👩‍💻 Author
 
