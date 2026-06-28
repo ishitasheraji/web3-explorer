@@ -26,19 +26,6 @@ A React + Vite website that teaches Web3 through four connected pages. This proj
 4. Open the browser at:
    ```bash
    http://localhost:5173
-   ```
-
-## How to submit
-
-1. Push the repository to GitHub.
-2. Take screenshots for each page:
-   - Home
-   - Concepts
-   - Live Prices
-   - Block Simulator
-3. Save screenshots in `screenshots/` so they are included in the repository.
-4. Deploy the app to GitHub Pages using `npm run deploy`.
-5. Share the GitHub repository link and live demo URL with your instructor.
 
 ## Live demo
 
@@ -75,20 +62,37 @@ A React + Vite website that teaches Web3 through four connected pages. This proj
 - The Block Simulator uses the browser's Web Crypto API for SHA-256 hashing.
 - The app runs locally with `npm install` and `npm run dev`.
 
-## Known improvements
+- 
+## 🛠️ Technologies
+- React
+- Vite
+- JavaScript
+- CSS
+- React Router DOM
+- Lucide React
+- CoinGecko API
+- Web Crypto API
 
-- Add screenshot files to the repository for submission
-- Deploy the app as a live GitHub Pages project
-- Improve page animations and fade-in transitions
-- Add a dark mode toggle
-- Add a custom favicon and SEO meta tags
+## 🎯 Learning Objectives
 
-## Submission checklist
+- Understand Blockchain fundamentals.
+- Learn Web3 concepts.
+- Explore cryptocurrency pricing APIs.
+- Visualize Proof of Work.
+- Demonstrate blockchain immutability.
 
-- [x] GitHub repository created
-- [x] README file included with project details
-- [x] Four pages implemented and navigable
-- [x] Responsive layout across devices
-- [x] No build errors (`npm run build` verified)
-- [x] Screenshots captured for each page
-- [x] App deployed to GitHub Pages
+  ## 🚀 Future Improvements
+
+- Dark Mode
+- More cryptocurrencies
+- Wallet Connection
+- Transaction Explorer
+- NFT Viewer
+- Better animations
+- 
+
+  ## 👩‍💻 Author
+
+Ishita Sheraji
+GitHub:
+https://github.com/ishitasheraji
